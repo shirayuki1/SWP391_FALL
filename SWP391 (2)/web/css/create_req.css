@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31-Oct-2023, 13:46:08
+    Author     : tranp
+*/
+
+/* Style for the modal background */
+/* styles.css */
+
+.container {
+    margin: 20px;
+}
+
+.tile {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.tile-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+/* Style the "Lưu lại" button */
+.btn-save {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.btn-save:hover {
+    background-color: #0056b3;
+}
+
+/* Style the "Hủy bỏ" link */
+.btn-cancel {
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #007bff; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth transition */
+}
+
+.btn-cancel:hover {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+
